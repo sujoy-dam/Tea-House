@@ -28,10 +28,10 @@
 </head>
 
 <body>
-    <header class="flex justify-between ps-32 pr-16 max-w-screen-2xl mx-auto py-10 mb-20 bg-pink-200">
+    <header class="md:flex md:justify-between p-4 md:ps-32 md:pr-16 max-w-screen-2xl mx-auto py-10 mb-20 bg-pink-200">
         <!-- text content  -->
         <div>
-            <h1 class="text-7xl font-bold leading-[80px] text-[#1C1C1C]">It's good <br> tea time at The <br> Tea House
+            <h1 class="text-5xl md:text-7xl font-bold leading-[60px] md:leading-[80px] text-[#1C1C1C]">It's good <br> tea time at The <br> Tea House
             </h1>
             <p class="max-w-sm my-8">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
             </p>
@@ -41,9 +41,9 @@
         </div>
         <!-- image content  -->
         <div class="relative">
-            <img class="border-2 border-dashed border-gray-400" src="./images/banner.png" alt="">
+            <img class="md:border-2 border-dashed border-gray-400" src="./images/banner.png" alt="">
             <div
-                class="flex items-center absolute translate-x-28 -translate-y-28 justify-between bg-white py-4 px-6 rounded-xl shadow-xl w-56">
+                class="flex items-center absolute translate-x-16 md:translate-x-28 -translate-y-28 justify-between bg-white py-4 px-6 rounded-xl shadow-xl w-56">
                 <i class="fa-solid text-3xl fa-star text-[#FFC850]"></i>
                 <div>
                     <h3 class="text-3xl font-bold">5.00</h3>
@@ -52,16 +52,16 @@
             </div>
         </div>
     </header>
-    <main class="max-w-screen-xl mx-auto">
+    <main class="p-4 max-w-screen-xl mx-auto ">
         <!-- our feature product -->
         <section class="mb-20">
             <div class="text-center">
-                <h2 class="text-5xl font-semibold">Our Featured Products</h2>
-                <p class="w-3/5 mx-auto mt-7">There are many variations of passages of Lorem Ipsum available, but the
+                <h2 class="text-3xl md:text-5xl font-bold">Our Featured Products</h2>
+                <p class="md:w-3/5 mx-auto mt-7">There are many variations of passages of Lorem Ipsum available, but the
                     majority have suffered alteration in some form, by injected humour, or randomised words which don't
                     look even slightly believable. </p>
             </div>
-            <div class="grid grid-cols-4 gap-6 mt-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-12">
                 <div
                     class="px-8 space-y-4 py-7 flex flex-col items-center bg-gradient-to-t from-[#F4F4F4] to-[#F4F4F4] rounded-xl">
                     <img src="./images/tea-1.png" alt="">
@@ -90,9 +90,9 @@
             </div>
         </section>
 
-        <section class="flex justify-between gap-12 mb-20">
+        <section class="md:flex justify-between gap-12 mb-20">
             <!-- great tea section  -->
-            <div class="w-1/2 grid grid-cols-2 grid-rows-3 gap-8">
+            <div class="md:w-1/2 grid grid-cols-2 grid-rows-3 gap-8">
                 <div class="bg-gradient-to-l from-[#FF8938] to-[#FF0000] opacity-10 rounded-xl"></div>
                 <div class="bg-[#E6A6231A] flex justify-center items-center rounded-xl px-8 pt-14 pb-8 row-span-2">
                     <img class="border-2 border-gray-400 border-dashed" src="./images/fresh-1.png" alt="">
@@ -104,9 +104,9 @@
                 <!-- <div class="bg-red-300 w-60 h-28 border-2"></div> -->
                 <!-- <div class="bg-red-300 w-60 h-28 border-2"></div> -->
             </div>
-            <div class="space-y-10 w-1/2">
+            <div class="space-y-10 md:w-1/2">
                 <div>
-                    <h2 class="text-5xl leading-[61px] font-bold mb-9">Great Tea, Freshly Presented</h2>
+                    <h2 class="text-4xl md:text-5xl md:leading-[61px] font-bold mb-9">Great Tea, Freshly Presented</h2>
                     <p class="leading-7">The meaning of gong cha is chanese is to provide the best tea to emperor from
                         all possessions .
                         It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been
@@ -125,7 +125,7 @@
                 </div>
             </div>
         </section>
-        <section class="mb-20 bg-gradient-to-l from-[#FF0000] grid grid-cols-2 gap-32 to-[#FF8938] px-16 py-24 rounded-xl">
+        <section class="mb-20 bg-gradient-to-l from-[#FF0000] grid md:grid-cols-2 gap-32 to-[#FF8938] px-4 md:px-16 py-24 rounded-xl">
             <div class="space-y-7">
                 <h1 class="text-5xl font-bold text-white">Meet Our Super Clients</h1>
                 <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority
@@ -148,7 +148,7 @@
                         <img src="./images/circles.png" alt="">
                     </div>
                 </div>
-                <div class="absolute -translate-x-16 -translate-y-28 z-10" >
+                <div class="absolute md:-translate-x-16 -translate-y-28 z-10" >
                     <div class="py-8 pl-12 pr-5 relative bg-white rounded-lg">
                         <div
                             class="border-4 border-white border-solid rounded-full absolute -translate-x-16 -translate-y-16">
@@ -182,11 +182,11 @@
         </section>
         <section class="mb-20">
             <!-- news and  event -->
-            <h1 class="text-5xl text-center font-bold">News & Events</h1>
-            <p class="mx-auto mt-7 mb-12 w-3/5">There are many variations of passages of Lorem Ipsum available, but the
+            <h1 class="text-3xl md:text-5xl text-center font-bold">News & Events</h1>
+            <p class="mx-auto text-center mt-7 mb-12 md:w-3/5">There are many variations of passages of Lorem Ipsum available, but the
                 majority have suffered alteration
                 in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid md:grid-cols-3 gap-6">
                 <div class="p-6 border-2 space-y-3 rounded-xl">
                     <img class="w-full mb-5" src="./images/news-1.png" alt="">
                     <small>Feb 05, 2027</small>
@@ -211,17 +211,17 @@
             </div>
         </section>
     </main>
-    <footer class="bg-gradient-to-l from-pink-200 to-pink-100 text-black py-20 max-w-screen-2xl mx-auto">
+    <footer class="p-4 bg-gradient-to-l from-pink-200 to-pink-100 text-black py-20 max-w-screen-2xl mx-auto">
         <div class="max-w-screen-xl mx-auto">
             <div class="flex justify-between items-center">
                 <img src="./images/cup.png" alt="">
                 <div class="flex items-center">
                     <p class="mr-8">Ready to get strated?</p>
-                    <button class="mr-8 px-6 py-4 rounded-xl bg-gradient-to-l from-[#FF0000] to-[#FF8938]">Get
+                    <button class="md:mr-8 px-6 py-4 rounded-xl bg-gradient-to-l from-[#FF0000] to-[#FF8938]">Get
                         Started</button>
                 </div>
             </div>
-            <div class="flex justify-between mt-20">
+            <div class="grid grid-cols-2 md:grid-cols-4 mt-20">
                 <div>
                     <ul class="leading-10">
                         <li class="text-xl font-semibold mb-6">Quick Links</li>
